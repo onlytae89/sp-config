@@ -13,8 +13,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
-      #拉取注册信息间隔时间，默认 30 秒
+      #鎷夊彇娉ㄥ唽淇℃伅闂撮殧鏃堕棿锛岄粯璁� 30 绉�
     registry-fetch-interval-seconds: 30
   instance:
-  #心跳间隔时间，默认 30 秒   
+  #蹇冭烦闂撮殧鏃堕棿锛岄粯璁� 30 绉�   
     lease-renewal-interval-in-seconds: 30  
+    
+spring:
+  cloud:
+    config:
+      override-none: true
