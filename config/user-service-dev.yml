@@ -21,6 +21,4 @@ eureka:
   instance:
   #蹇冭烦闂撮殧鏃堕棿锛岄粯璁� 30 绉�   
     lease-renewal-interval-in-seconds: 30  
-    
-spring:
  
