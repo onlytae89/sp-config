@@ -5,6 +5,9 @@ sp:
 spring:
   application:
     name: user-service
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 8101
@@ -20,6 +23,4 @@ eureka:
     lease-renewal-interval-in-seconds: 30  
     
 spring:
-  cloud:
-    config:
-      override-none: true
+ 
